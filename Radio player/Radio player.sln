@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio player.Business", "Radio player.Business\Radio player.Business.csproj", "{DE57779B-8175-45B8-9E90-869A5495C5DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio player.Core", "Radio player.Core\Radio player.Core.csproj", "{2365FA6D-1EA3-40AF-9D8E-8FEFB016D926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio player.DataAccess", "Radio player.DataAccess\Radio player.DataAccess.csproj", "{D793FAE1-7F3D-45D0-A4E0-6D34E2AC2B06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio player.Entities", "Radio player.Entities\Radio player.Entities.csproj", "{57C1B593-B460-4829-9BDF-0176B9FA4BC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio player.Services", "Radio player.Services\Radio player.Services.csproj", "{93668538-FA07-462D-945B-2F31A5D422CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radio player.WebAPI", "Radio player.WebAPI\Radio player.WebAPI.csproj", "{5E2E470C-E430-4A23-8CB8-0AE7BE1186B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio player.Mapper", "Radio player.Mapper\Radio player.Mapper.csproj", "{D05B7AF5-D9D9-47D0-AAEE-013FB6A6D415}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE57779B-8175-45B8-9E90-869A5495C5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE57779B-8175-45B8-9E90-869A5495C5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE57779B-8175-45B8-9E90-869A5495C5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE57779B-8175-45B8-9E90-869A5495C5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2365FA6D-1EA3-40AF-9D8E-8FEFB016D926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2365FA6D-1EA3-40AF-9D8E-8FEFB016D926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2365FA6D-1EA3-40AF-9D8E-8FEFB016D926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2365FA6D-1EA3-40AF-9D8E-8FEFB016D926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D793FAE1-7F3D-45D0-A4E0-6D34E2AC2B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D793FAE1-7F3D-45D0-A4E0-6D34E2AC2B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D793FAE1-7F3D-45D0-A4E0-6D34E2AC2B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D793FAE1-7F3D-45D0-A4E0-6D34E2AC2B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C1B593-B460-4829-9BDF-0176B9FA4BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C1B593-B460-4829-9BDF-0176B9FA4BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C1B593-B460-4829-9BDF-0176B9FA4BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C1B593-B460-4829-9BDF-0176B9FA4BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93668538-FA07-462D-945B-2F31A5D422CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93668538-FA07-462D-945B-2F31A5D422CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93668538-FA07-462D-945B-2F31A5D422CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93668538-FA07-462D-945B-2F31A5D422CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2E470C-E430-4A23-8CB8-0AE7BE1186B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2E470C-E430-4A23-8CB8-0AE7BE1186B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2E470C-E430-4A23-8CB8-0AE7BE1186B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2E470C-E430-4A23-8CB8-0AE7BE1186B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05B7AF5-D9D9-47D0-AAEE-013FB6A6D415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05B7AF5-D9D9-47D0-AAEE-013FB6A6D415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05B7AF5-D9D9-47D0-AAEE-013FB6A6D415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05B7AF5-D9D9-47D0-AAEE-013FB6A6D415}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CABCF03-E9D9-488A-B655-D58DBC895A62}
+	EndGlobalSection
+EndGlobal
